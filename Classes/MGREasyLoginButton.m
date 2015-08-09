@@ -38,6 +38,20 @@ NSString *const MGREasyLoginTwitterLoginErrorNotification = @"MGREasyLoginTwitte
     return self;
 }
 
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self configureButton];    
+    }
+    return self;
+}
+
++ (id)buttonWithType:(UIButtonType)buttonType {
+    MGREasyLoginBaseButton *button = [super buttonWithType:buttonType];
+    [button configureButton];
+    return button;
+}
+
 - (void)awakeFromNib {
     [self configureButton];
     [super awakeFromNib];

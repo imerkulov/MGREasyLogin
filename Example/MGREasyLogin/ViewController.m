@@ -12,6 +12,16 @@
 
 @implementation ViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    MGREasyLoginFacebookButton *login = [MGREasyLoginFacebookButton buttonWithType:UIButtonTypeCustom];
+    [login setFrame:CGRectMake(100, 100, 100, 40)];
+    [login setTitle:@"Login" forState:UIControlStateNormal];
+    [login setBackgroundColor:[UIColor redColor]];
+    [self.view addSubview:login];
+}
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self configureNotifications];
