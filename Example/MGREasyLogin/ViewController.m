@@ -23,6 +23,7 @@
 - (void)viewDidDisappear:(BOOL)animated {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [super viewDidDisappear:animated];
+    [[MGREasyLoginManager sharedManager] setPermissions:@[@"email", @"public_profile"] forNetworkWithType:MGREasyLoginNetworkTypeFacebook];
 }
 
 - (void)configureNotifications {

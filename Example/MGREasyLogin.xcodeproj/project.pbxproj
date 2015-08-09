@@ -102,8 +102,6 @@
 		125F53511B77A7100047B47C = {
 			isa = PBXGroup;
 			children = (
-				125F53931B77A7FF0047B47C /* Social.framework */,
-				125F53911B77A7FA0047B47C /* Accounts.framework */,
 				125F535C1B77A7110047B47C /* MGREasyLogin */,
 				125F53761B77A7110047B47C /* MGREasyLoginTests */,
 				125F535B1B77A7110047B47C /* Products */,
@@ -182,6 +180,8 @@
 		125F53901B77A7E90047B47C /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				125F53931B77A7FF0047B47C /* Social.framework */,
+				125F53911B77A7FA0047B47C /* Accounts.framework */,
 				125F53A31B77B0BA0047B47C /* TwitterKitResources.bundle */,
 				125F53951B77A8100047B47C /* Fabric.framework */,
 				125F53961B77A8100047B47C /* FBSDKCoreKit.framework */,
