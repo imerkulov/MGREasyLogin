@@ -14,12 +14,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    MGREasyLoginFacebookButton *login = [MGREasyLoginFacebookButton buttonWithType:UIButtonTypeCustom];
-    [login setFrame:CGRectMake(100, 100, 100, 40)];
-    [login setTitle:@"Login" forState:UIControlStateNormal];
-    [login setBackgroundColor:[UIColor redColor]];
-    [self.view addSubview:login];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -33,7 +27,6 @@
 - (void)viewDidDisappear:(BOOL)animated {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [super viewDidDisappear:animated];
-    [[MGREasyLoginManager sharedManager] setPermissions:@[@"email", @"public_profile"] forNetworkWithType:MGREasyLoginNetworkTypeFacebook];
 }
 
 - (void)configureNotifications {
@@ -43,27 +36,27 @@
                                              selector:@selector(facebookLoginStart:)
                                                  name:MGREasyLoginFacebookLoginStartNotification
                                                object:nil];
-    
+
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(facebookLoginSuccess:)
                                                  name:MGREasyLoginFacebookLoginSuccessNotification
                                                object:nil];
-    
+
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(facebookLoginError:)
                                                  name:MGREasyLoginFacebookLoginErrorNotification
                                                object:nil];
-    
+
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(twitterLoginStart:)
                                                  name:MGREasyLoginTwitterLoginStartNotification
                                                object:nil];
-    
+
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(twitterLoginSuccess:)
                                                  name:MGREasyLoginTwitterLoginSuccessNotification
                                                object:nil];
-    
+
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(twitterLoginError:)
                                                  name:MGREasyLoginTwitterLoginErrorNotification
