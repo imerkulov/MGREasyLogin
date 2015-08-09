@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		125F53601B77A7110047B47C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F535F1B77A7110047B47C /* main.m */; };
+		125F53631B77A7110047B47C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F53621B77A7110047B47C /* AppDelegate.m */; };
+		125F53661B77A7110047B47C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F53651B77A7110047B47C /* ViewController.m */; };
+		125F53691B77A7110047B47C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125F53671B77A7110047B47C /* Main.storyboard */; };
+		125F536B1B77A7110047B47C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125F536A1B77A7110047B47C /* Images.xcassets */; };
+		125F536E1B77A7110047B47C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 125F536C1B77A7110047B47C /* LaunchScreen.xib */; };
+		125F537A1B77A7110047B47C /* MGREasyLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F53791B77A7110047B47C /* MGREasyLoginTests.m */; };
+		125F538C1B77A7DD0047B47C /* MGREasyLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F53851B77A7DD0047B47C /* MGREasyLoginButton.m */; };
+		125F538D1B77A7DD0047B47C /* MGREasyLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F53871B77A7DD0047B47C /* MGREasyLoginManager.m */; };
+		125F538E1B77A7DD0047B47C /* MGREasyLoginTwitterAccountsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F53891B77A7DD0047B47C /* MGREasyLoginTwitterAccountsStore.m */; };
+		125F538F1B77A7DD0047B47C /* MGREasyLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 125F538B1B77A7DD0047B47C /* MGREasyLoginUser.m */; };
+		125F53921B77A7FA0047B47C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125F53911B77A7FA0047B47C /* Accounts.framework */; };
+		125F53941B77A7FF0047B47C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125F53931B77A7FF0047B47C /* Social.framework */; };
+		125F539B1B77A8100047B47C /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125F53951B77A8100047B47C /* Fabric.framework */; };
+		125F539C1B77A8100047B47C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125F53961B77A8100047B47C /* FBSDKCoreKit.framework */; };
+		125F539D1B77A8100047B47C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125F53971B77A8100047B47C /* FBSDKLoginKit.framework */; };
+		125F539E1B77A8100047B47C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125F53981B77A8100047B47C /* FBSDKShareKit.framework */; };
+		125F539F1B77A8100047B47C /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125F53991B77A8100047B47C /* TwitterCore.framework */; };
+		125F53A01B77A8100047B47C /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125F539A1B77A8100047B47C /* TwitterKit.framework */; };
+		125F53A41B77B0BA0047B47C /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 125F53A31B77B0BA0047B47C /* TwitterKitResources.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		125F53741B77A7110047B47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 125F53521B77A7100047B47C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 125F53591B77A7110047B47C;
+			remoteInfo = MGREasyLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		125F535A1B77A7110047B47C /* MGREasyLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGREasyLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		125F535E1B77A7110047B47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		125F535F1B77A7110047B47C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		125F53611B77A7110047B47C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		125F53621B77A7110047B47C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		125F53641B77A7110047B47C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		125F53651B77A7110047B47C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		125F53681B77A7110047B47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		125F536A1B77A7110047B47C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		125F536D1B77A7110047B47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		125F53731B77A7110047B47C /* MGREasyLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGREasyLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		125F53781B77A7110047B47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		125F53791B77A7110047B47C /* MGREasyLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGREasyLoginTests.m; sourceTree = "<group>"; };
+		125F53841B77A7DD0047B47C /* MGREasyLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGREasyLoginButton.h; sourceTree = "<group>"; };
+		125F53851B77A7DD0047B47C /* MGREasyLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGREasyLoginButton.m; sourceTree = "<group>"; };
+		125F53861B77A7DD0047B47C /* MGREasyLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGREasyLoginManager.h; sourceTree = "<group>"; };
+		125F53871B77A7DD0047B47C /* MGREasyLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGREasyLoginManager.m; sourceTree = "<group>"; };
+		125F53881B77A7DD0047B47C /* MGREasyLoginTwitterAccountsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGREasyLoginTwitterAccountsStore.h; sourceTree = "<group>"; };
+		125F53891B77A7DD0047B47C /* MGREasyLoginTwitterAccountsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGREasyLoginTwitterAccountsStore.m; sourceTree = "<group>"; };
+		125F538A1B77A7DD0047B47C /* MGREasyLoginUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGREasyLoginUser.h; sourceTree = "<group>"; };
+		125F538B1B77A7DD0047B47C /* MGREasyLoginUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGREasyLoginUser.m; sourceTree = "<group>"; };
+		125F53911B77A7FA0047B47C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		125F53931B77A7FF0047B47C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		125F53951B77A8100047B47C /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		125F53961B77A8100047B47C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = SOURCE_ROOT; };
+		125F53971B77A8100047B47C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = SOURCE_ROOT; };
+		125F53981B77A8100047B47C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = SOURCE_ROOT; };
+		125F53991B77A8100047B47C /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = SOURCE_ROOT; };
+		125F539A1B77A8100047B47C /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = SOURCE_ROOT; };
+		125F53A11B77AD4C0047B47C /* MGREasyLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGREasyLogin.h; sourceTree = "<group>"; };
+		125F53A31B77B0BA0047B47C /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		125F53571B77A7110047B47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125F53941B77A7FF0047B47C /* Social.framework in Frameworks */,
+				125F539C1B77A8100047B47C /* FBSDKCoreKit.framework in Frameworks */,
+				125F539F1B77A8100047B47C /* TwitterCore.framework in Frameworks */,
+				125F53A01B77A8100047B47C /* TwitterKit.framework in Frameworks */,
+				125F539E1B77A8100047B47C /* FBSDKShareKit.framework in Frameworks */,
+				125F539D1B77A8100047B47C /* FBSDKLoginKit.framework in Frameworks */,
+				125F53921B77A7FA0047B47C /* Accounts.framework in Frameworks */,
+				125F539B1B77A8100047B47C /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		125F53701B77A7110047B47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		125F53511B77A7100047B47C = {
+			isa = PBXGroup;
+			children = (
+				125F53931B77A7FF0047B47C /* Social.framework */,
+				125F53911B77A7FA0047B47C /* Accounts.framework */,
+				125F535C1B77A7110047B47C /* MGREasyLogin */,
+				125F53761B77A7110047B47C /* MGREasyLoginTests */,
+				125F535B1B77A7110047B47C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		125F535B1B77A7110047B47C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				125F535A1B77A7110047B47C /* MGREasyLogin.app */,
+				125F53731B77A7110047B47C /* MGREasyLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		125F535C1B77A7110047B47C /* MGREasyLogin */ = {
+			isa = PBXGroup;
+			children = (
+				125F53901B77A7E90047B47C /* SDK */,
+				125F53831B77A7DD0047B47C /* Classes */,
+				125F53611B77A7110047B47C /* AppDelegate.h */,
+				125F53621B77A7110047B47C /* AppDelegate.m */,
+				125F53641B77A7110047B47C /* ViewController.h */,
+				125F53651B77A7110047B47C /* ViewController.m */,
+				125F53671B77A7110047B47C /* Main.storyboard */,
+				125F536A1B77A7110047B47C /* Images.xcassets */,
+				125F536C1B77A7110047B47C /* LaunchScreen.xib */,
+				125F535D1B77A7110047B47C /* Supporting Files */,
+			);
+			path = MGREasyLogin;
+			sourceTree = "<group>";
+		};
+		125F535D1B77A7110047B47C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				125F535E1B77A7110047B47C /* Info.plist */,
+				125F535F1B77A7110047B47C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		125F53761B77A7110047B47C /* MGREasyLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				125F53791B77A7110047B47C /* MGREasyLoginTests.m */,
+				125F53771B77A7110047B47C /* Supporting Files */,
+			);
+			path = MGREasyLoginTests;
+			sourceTree = "<group>";
+		};
+		125F53771B77A7110047B47C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				125F53781B77A7110047B47C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		125F53831B77A7DD0047B47C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				125F53A11B77AD4C0047B47C /* MGREasyLogin.h */,
+				125F53841B77A7DD0047B47C /* MGREasyLoginButton.h */,
+				125F53851B77A7DD0047B47C /* MGREasyLoginButton.m */,
+				125F53861B77A7DD0047B47C /* MGREasyLoginManager.h */,
+				125F53871B77A7DD0047B47C /* MGREasyLoginManager.m */,
+				125F53881B77A7DD0047B47C /* MGREasyLoginTwitterAccountsStore.h */,
+				125F53891B77A7DD0047B47C /* MGREasyLoginTwitterAccountsStore.m */,
+				125F538A1B77A7DD0047B47C /* MGREasyLoginUser.h */,
+				125F538B1B77A7DD0047B47C /* MGREasyLoginUser.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		125F53901B77A7E90047B47C /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				125F53A31B77B0BA0047B47C /* TwitterKitResources.bundle */,
+				125F53951B77A8100047B47C /* Fabric.framework */,
+				125F53961B77A8100047B47C /* FBSDKCoreKit.framework */,
+				125F53971B77A8100047B47C /* FBSDKLoginKit.framework */,
+				125F53981B77A8100047B47C /* FBSDKShareKit.framework */,
+				125F53991B77A8100047B47C /* TwitterCore.framework */,
+				125F539A1B77A8100047B47C /* TwitterKit.framework */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		125F53591B77A7110047B47C /* MGREasyLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125F537D1B77A7110047B47C /* Build configuration list for PBXNativeTarget "MGREasyLogin" */;
+			buildPhases = (
+				125F53561B77A7110047B47C /* Sources */,
+				125F53571B77A7110047B47C /* Frameworks */,
+				125F53581B77A7110047B47C /* Resources */,
+				125F53A21B77B0840047B47C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGREasyLogin;
+			productName = MGREasyLogin;
+			productReference = 125F535A1B77A7110047B47C /* MGREasyLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		125F53721B77A7110047B47C /* MGREasyLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125F53801B77A7110047B47C /* Build configuration list for PBXNativeTarget "MGREasyLoginTests" */;
+			buildPhases = (
+				125F536F1B77A7110047B47C /* Sources */,
+				125F53701B77A7110047B47C /* Frameworks */,
+				125F53711B77A7110047B47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				125F53751B77A7110047B47C /* PBXTargetDependency */,
+			);
+			name = MGREasyLoginTests;
+			productName = MGREasyLoginTests;
+			productReference = 125F53731B77A7110047B47C /* MGREasyLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		125F53521B77A7100047B47C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "magora-systems.com";
+				TargetAttributes = {
+					125F53591B77A7110047B47C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					125F53721B77A7110047B47C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 125F53591B77A7110047B47C;
+					};
+				};
+			};
+			buildConfigurationList = 125F53551B77A7100047B47C /* Build configuration list for PBXProject "MGREasyLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 125F53511B77A7100047B47C;
+			productRefGroup = 125F535B1B77A7110047B47C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				125F53591B77A7110047B47C /* MGREasyLogin */,
+				125F53721B77A7110047B47C /* MGREasyLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		125F53581B77A7110047B47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125F53A41B77B0BA0047B47C /* TwitterKitResources.bundle in Resources */,
+				125F53691B77A7110047B47C /* Main.storyboard in Resources */,
+				125F536E1B77A7110047B47C /* LaunchScreen.xib in Resources */,
+				125F536B1B77A7110047B47C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		125F53711B77A7110047B47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		125F53A21B77B0840047B47C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run de379c16f825fe904c162d630fd0255dddcb0716 15bd80b33a9a5d32a7892fbd8621b9f626a82e40cf1161e4aafbf5536b875755\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		125F53561B77A7110047B47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125F538C1B77A7DD0047B47C /* MGREasyLoginButton.m in Sources */,
+				125F538F1B77A7DD0047B47C /* MGREasyLoginUser.m in Sources */,
+				125F53661B77A7110047B47C /* ViewController.m in Sources */,
+				125F538E1B77A7DD0047B47C /* MGREasyLoginTwitterAccountsStore.m in Sources */,
+				125F53631B77A7110047B47C /* AppDelegate.m in Sources */,
+				125F53601B77A7110047B47C /* main.m in Sources */,
+				125F538D1B77A7DD0047B47C /* MGREasyLoginManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		125F536F1B77A7110047B47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125F537A1B77A7110047B47C /* MGREasyLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		125F53751B77A7110047B47C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 125F53591B77A7110047B47C /* MGREasyLogin */;
+			targetProxy = 125F53741B77A7110047B47C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		125F53671B77A7110047B47C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				125F53681B77A7110047B47C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		125F536C1B77A7110047B47C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				125F536D1B77A7110047B47C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		125F537B1B77A7110047B47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		125F537C1B77A7110047B47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		125F537E1B77A7110047B47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MGREasyLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		125F537F1B77A7110047B47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MGREasyLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		125F53811B77A7110047B47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MGREasyLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGREasyLogin.app/MGREasyLogin";
+			};
+			name = Debug;
+		};
+		125F53821B77A7110047B47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MGREasyLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGREasyLogin.app/MGREasyLogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		125F53551B77A7100047B47C /* Build configuration list for PBXProject "MGREasyLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125F537B1B77A7110047B47C /* Debug */,
+				125F537C1B77A7110047B47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		125F537D1B77A7110047B47C /* Build configuration list for PBXNativeTarget "MGREasyLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125F537E1B77A7110047B47C /* Debug */,
+				125F537F1B77A7110047B47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		125F53801B77A7110047B47C /* Build configuration list for PBXNativeTarget "MGREasyLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125F53811B77A7110047B47C /* Debug */,
+				125F53821B77A7110047B47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 125F53521B77A7100047B47C /* Project object */;
+}
