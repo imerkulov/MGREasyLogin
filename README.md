@@ -40,11 +40,8 @@ and your project has the files:
 Pod
 --------
 
-If you are using cocoapods, you can use this project with the following Podfile
+Is not implemented
 
-```ruby
-platform :ios, '7.0'
-pod ''
 ```
 
 How to user
